@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.212" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/drawable/gradient.xml" value="0.212" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/drawable/ic_baseline_message_active_24.xml" value="0.212" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/drawable/ic_baseline_school_24.xml" value="0.212" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/drawable/ic_baseline_work_outline_24.xml" value="0.212" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/drawable/ic_launcher_background.xml" value="0.137" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/drawable/ic_round_adjust_24.xml" value="0.212" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/drawable/ic_twotone_create_24.xml" value="0.212" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/drawable/side_nav_bar.xml" value="0.212" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/activity_drawer_navigation.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/activity_dz_navigation_dz.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/activity_home2.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/activity_list_of_persons.xml" value="0.264" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/activity_my_cabinet.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/activity_my_kabinet.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/activity_navigation.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/activity_navigation_dz.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/activity_sms_dz.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/activity_splash_screen.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/app_bar_drawer_navigation.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/content_drawer_navigation.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/dz_fragment2.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/dz_fragment3.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/dz_fragment4.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/fragment_dz_fragment1.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/fragment_dz_fragment2.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/fragment_dz_fragment3.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/fragment_dz_fragment4.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/fragment_fragment1.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/fragment_fragment2.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/fragment_fragment3.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/fragment_fragment4.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/login.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/nav_header_drawer_navigation.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/register.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/layout/test_lesson_8.xml" value="0.264" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/menu/activity_main_drawer.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/menu/drawer__navigation.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Lesson_8/app/src/main/res/menu/multiple_language_menu.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

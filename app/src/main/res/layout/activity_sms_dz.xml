@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".sms_call.SMS_DZ_Activity">
+
+    <TextView
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Recent chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginLeft="10dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/user_photo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_baseline_person_24"
+        app:civ_border_width="2dp"
+        android:layout_marginTop="30dp"
+        app:civ_border_color="#FF000000"
+        />
+    <TextView
+
+        android:text="Akeira Joseph"
+        android:textSize="24dp"
+        android:id="@+id/txt_first_person_of_sms"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/user_photo"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/message_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_baseline_message_24_gray" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginLeft="10dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/user2_photo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_baseline_person_24"
+            app:civ_border_width="2dp"
+            android:layout_marginTop="30dp"
+            app:civ_border_color="#FF000000"
+            />
+        <TextView
+            android:text="Chris Martin"
+            android:textSize="24dp"
+            android:id="@+id/txt_second_person_of_sms"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/user2_photo"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/message_img2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_baseline_message_24_gray" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginLeft="10dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/user3_photo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_baseline_person_24"
+            app:civ_border_width="2dp"
+            android:layout_marginTop="30dp"
+            app:civ_border_color="#FF000000"
+            />
+        <TextView
+            android:textColor="@color/white"
+            android:text="Henry Maguire"
+            android:textSize="24dp"
+            android:id="@+id/txt_third_person_of_sms"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/user3_photo"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/message_img3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_baseline_message_24_gray" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginLeft="10dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/user4_photo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_baseline_person_24"
+            app:civ_border_width="2dp"
+            android:layout_marginTop="30dp"
+            app:civ_border_color="#FF000000"
+            />
+        <TextView
+            android:textColor="@color/white"
+            android:text="Simran Kaur"
+            android:textSize="24dp"
+            android:id="@+id/txt_fourth_person_of_sms"
+
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/user4_photo"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/message_img4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_baseline_message_24_gray" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:textColor="@color/white"
+        android:text="Previous chat"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginLeft="10dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/user5_photo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_baseline_person_24"
+            app:civ_border_width="2dp"
+            android:layout_marginTop="30dp"
+            app:civ_border_color="#FF000000"
+            />
+        <TextView
+            android:textColor="@color/white"
+            android:text="Brij Bhushan"
+            android:textSize="24dp"
+            android:id="@+id/txt_fifth_person_of_sms"
+
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/user5_photo"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/message_img5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_baseline_message_24_gray" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Урок 8</string>
+    <string name="enter_email">Введите почту</string>
+    <string name="enter_password">Введите пароль </string>
+    <string name="sing_in">Войти</string>
+    <string name="sign_up">Регистрироваться </string>
+    <string name="notification_empthy_enter_all">Места должны быть заполнены</string>
+</resources>

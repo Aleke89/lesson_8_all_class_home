@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+
+
+
+
+    <TextView
+        android:id="@+id/surak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Surak"
+        android:textSize="45dp"
+        android:textStyle="bold"
+
+        >
+
+
+    </TextView>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_surak_1_jauap_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer 1"
+            android:layout_weight="1">
+
+        </RadioButton>
+
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rb_surak_1_jauap_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer 1">
+
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/rb_surak_1_jauap_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer 1"
+            android:layout_weight="1">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/rb_surak_1_jauap_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer 1"
+            android:layout_weight="1">
+
+        </RadioButton>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/surak2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Surak"
+        android:textSize="45dp"
+        android:textStyle="bold"
+
+        >
+
+
+    </TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rb_surak_2_jauap_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer 1">
+
+        </RadioButton>
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rb_surak_2_jauap_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer 1">
+
+        </RadioButton>
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rb_surak_2_jauap_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer 1">
+
+        </RadioButton>
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rb_surak_2_jauap_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer 1">
+
+        </RadioButton>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/surak3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Surak"
+        android:textSize="45dp"
+        android:textStyle="bold"
+
+        >
+
+
+    </TextView>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rb_surak_3_jauap_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer 1">
+
+        </RadioButton>
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rb_surak_3_jauap_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer 1">
+
+        </RadioButton>
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rb_surak_3_jauap_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer 1">
+
+        </RadioButton>
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rb_surak_3_jauap_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer 1">
+
+        </RadioButton>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/surak4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Surak"
+        android:textSize="45dp"
+        android:textStyle="bold"
+
+        >
+
+
+    </TextView>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rb_surak_4_jauap_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer 1">
+
+        </RadioButton>
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rb_surak_4_jauap_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer 1">
+
+        </RadioButton>
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rb_surak_4_jauap_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer 1">
+
+        </RadioButton>
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rb_surak_4_jauap_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer 1">
+
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check"></Button>
+</LinearLayout>
+</ScrollView>

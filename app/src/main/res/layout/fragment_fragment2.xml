@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/first_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/first_person"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="20dp"
+            android:src="@drawable/ic_baseline_person_24" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/name_first_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="GrandMother"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/phone_number_first_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_first_person"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="87711593543"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+        <LinearLayout
+            android:id="@+id/first_buttons"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_below="@id/phone_number_first_person"
+            android:layout_width="match_parent"
+            android:layout_toLeftOf="@id/first_person"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="CALL"
+                android:id="@+id/first_call_btn"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:text="SMS"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/first_sms_btn"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

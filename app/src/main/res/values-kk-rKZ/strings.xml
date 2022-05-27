@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">8-ші сабақ</string>
+    <string name="enter_email">Почта енгізу</string>
+    <string name="enter_password">Құпия сөз енгізу</string>
+    <string name="sing_in">Кіру</string>
+    <string name="sign_up">Тіркелу</string>
+    <string name="notification_empthy_enter_all">Толық  толтырыңыз</string>
+
+</resources>

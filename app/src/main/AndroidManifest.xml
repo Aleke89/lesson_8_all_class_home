@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lesson_8">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/title_activity_drawer_navigation"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lesson_8.NoActionBar">
+        <activity
+            android:name=".navigation_dz.navigation_dz"
+            android:exported="false"
+             />
+        <activity
+            android:name=".authentification.Navigation_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".splash_screen.Splash_screen"
+            android:exported="false" />
+        <activity
+            android:name=".sms_call.SMS_DZ_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".sms_call.List_of_Persons"
+            android:exported="false" />
+        <activity
+            android:name=".authentification.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".my_cabinet.Home_2_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".my_cabinet.MyCabinetActivity"
+            android:exported="true" />
+        <activity
+            android:name=".authentification.regiter"
+            android:exported="true" />
+        <activity
+            android:name=".test.Test"
+            android:exported="true" />
+        <activity
+            android:name=".drawer_navigation.Drawer_Navigation"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+    </application>
+
+</manifest>

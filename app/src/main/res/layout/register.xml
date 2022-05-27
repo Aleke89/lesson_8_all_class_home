@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".authentification.MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"
+        >
+
+    </ImageView>
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:hint="enter email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edit_email_register">
+
+    </EditText>
+    <EditText
+        android:hint="enter name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/edit_name_register"
+        >
+
+    </EditText>
+
+    <EditText
+        android:hint="enter password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/edit_password_register"
+        >
+
+    </EditText>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_tirkelu"
+        android:text="Sing in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>

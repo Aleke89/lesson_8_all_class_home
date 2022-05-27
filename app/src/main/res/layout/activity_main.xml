@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".authentification.MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"
+        >
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/log_email"
+        android:layout_marginTop="40dp"
+        android:hint="@string/enter_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress">
+
+    </EditText>
+    <EditText
+        android:id="@+id/log_password"
+        android:hint="@string/enter_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        >
+
+    </EditText>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_sing_in"
+        android:text="@string/sing_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/gray"
+        android:text="@string/sign_up">
+
+    </Button>
+
+</LinearLayout>

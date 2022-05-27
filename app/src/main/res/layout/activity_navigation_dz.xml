@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navigation_dz.navigation_dz">
+    <FrameLayout
+        android:id="@+id/fragment_dz"
+        android:layout_above="@+id/navbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:id="@+id/navbar"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/teal_700"
+
+        android:layout_height="60dp">
+        <ImageView
+            android:id="@+id/favorite"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_baseline_favorite_24"
+            android:layout_weight="1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <ImageView
+            android:id="@+id/music"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_library_music_24"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <ImageView
+            android:id="@+id/place"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_place_24"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <ImageView
+            android:id="@+id/news"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_fiber_new_24"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+</RelativeLayout>

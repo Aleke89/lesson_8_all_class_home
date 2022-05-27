@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Lesson_8</string>
+    <string name="enter_email">enter email</string>
+    <string name="enter_password">enter password</string>
+    <string name="sing_in">Sing in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="notification_empthy_enter_all">Pls enter all</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_drawer_navigation">Drawer_Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_ata">Ata</string>
+    <string name="menu_apa">Apa</string>
+    <string name="menu_ake">Ake</string>
+    <string name="menu_ana">Ana</string>
+</resources>

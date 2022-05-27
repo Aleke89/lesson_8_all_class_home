@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".my_cabinet.Home_2_Activity">
+
+    <RelativeLayout
+        android:id="@+id/gradient_layout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/gradient">
+
+        <TextView
+            android:id="@+id/dz_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="Peter Kenrick"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"></TextView>
+    </RelativeLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/dz_user_photo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/ic_baseline_person_24"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="4dp" />
+
+    <TextView
+        android:id="@+id/dz_user_portfolio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gradient_layout"
+        android:layout_marginLeft="68dp"
+        android:layout_toRightOf="@id/dz_user_photo"
+        android:text="UI/UX Designer"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/dz_user_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dz_user_portfolio"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/dz_user_photo"
+        android:text="Portland,Oregon"
+        android:textSize="18dp"></TextView>
+
+    <LinearLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dz_user_place"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dz_btn_follow"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:text="FOLLOW"
+            android:textColor="@color/green"
+            app:cornerRadius="12dp"
+            app:strokeColor="#27FF00"
+            app:strokeWidth="2dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:text="CONTACT"
+            android:textColor="@color/native_purple"
+            app:cornerRadius="12dp"
+            app:strokeColor="#C800FF"
+            app:strokeWidth="2dp">
+
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dz_menu_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_layout"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/dz_selected_menu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_work_outline_24">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_school_24">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_twotone_create_24">
+
+        </ImageView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/dz_menu_layout">
+
+        <TextView
+            android:id="@+id/dz_experience_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="EXPERIENCE"
+            android:textColor="@color/gray"
+            android:textSize="26dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/dz_experience_menu"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/dz_dots_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_round_adjust_24" />
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/dz_dots_list"
+                android:layout_marginLeft="27.61dp"
+                android:background="@color/gray" />
+
+            <ImageView
+                android:id="@+id/dz_dots_list2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dz_dots_list"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/ic_round_adjust_24" />
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/dz_dots_list2"
+                android:layout_marginLeft="27.61dp"
+                android:background="@color/gray" />
+
+            <ImageView
+                android:id="@+id/dz_dots_list3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dz_dots_list2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/ic_round_adjust_24" />
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/dz_dots_list3"
+                android:layout_marginLeft="27.61dp"
+                android:background="@color/gray" />
+
+                <TextView
+                    android:id="@+id/dz_list_item1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@id/dz_dots_list"
+                    android:text="UI/UX Designer"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dz_list_item1"
+                android:layout_marginLeft="10dp"
+
+                android:layout_toRightOf="@id/dz_dots_list"
+                android:text="Boom Studio | 2014 - 2016" />
+
+            <TextView
+                android:id="@+id/dz_list_item2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="124dp"
+                android:layout_toRightOf="@id/dz_dots_list"
+                android:text="UI/UX Designer"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dz_list_item2"
+                android:layout_marginLeft="10dp"
+
+                android:layout_toRightOf="@id/dz_dots_list"
+                android:text="Boom Studio | 2014 - 2016" />
+
+            <TextView
+                android:id="@+id/dz_list_item3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="224dp"
+                android:layout_toRightOf="@id/dz_dots_list"
+                android:text="UI/UX Designer"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dz_dots_list3"
+                android:layout_marginLeft="10dp"
+
+                android:layout_toRightOf="@id/dz_dots_list"
+                android:text="Boom Studio | 2014 - 2016" /></RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
